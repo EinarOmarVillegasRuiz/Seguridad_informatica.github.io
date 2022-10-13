@@ -19,9 +19,13 @@
   <title>Formulario Registro</title>
 </head>
 <body>
-    <center><h1>Realizado por Einar Omar Villegas Ruiz CODIGO DE CIFRADO AES</h1></center>
-    <form action="prueba.php" method="post">
+    
+    <center><h1>Realizado por Einar Omar Villegas Ruiz codigo de cifrado AES</h1>
+    
+    </center>
+    <form action="cifrado_rsa.php" method="post">
         <section class="form-register">
+            <a href="https://einar20200725.000webhostapp.com/seguridad_informatica/index.php"> Direccionar a medodo RSA</a>
             <h4>Formulario Registro</h4>
             <label for="nombre">Introduce tu nombre: </label>
             <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
@@ -96,7 +100,7 @@
             
 
 </div></div></div>
-    <form action="pruebaDes.php" method="post">
+    <form action="descifrado_rsa.php" method="post">
         <section class="form-register">
             <h4>Formulario Registro</h4>
             <label for="pass">Introduce tu cifrada: </label>
