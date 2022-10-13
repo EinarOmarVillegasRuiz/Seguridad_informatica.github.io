@@ -21,7 +21,7 @@
 <body>
    
     <center><h1>Realizado por Einar Omar Villegas Ruiz codigo de cifrado RSA</h1></center>
-    <form action="prueba3.php" method="post">
+    <form action="cifrar_aes.php" method="post">
         <section class="form-register">
              <a href="https://einar20200725.000webhostapp.com/seguridad_informatica/index2.php"> Direccionar a medodo AES</a>
             <h4>Formulario Registro</h4>
@@ -94,7 +94,7 @@
             
 
 </div></div></div>
-    <form action="prueba3a.php" method="post">
+    <form action="descifrar_aes.php" method="post">
         <section class="form-register">
             <h4>Formulario Registro</h4>
             <label for="pass">Introduce tu cifrada: </label>
